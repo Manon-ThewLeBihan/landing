@@ -1,0 +1,32 @@
+.banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.3) 50%), url(../../images/banner.png);
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.banner h1 {
+	font-size: 50px;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.banner h2 {
+	font-size: 28px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 40px;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.banner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-pink {
+    margin-top: 20px; /* Optional: Adds space above the button if needed */
+}
